@@ -1,0 +1,14 @@
+﻿<Window x:Class="MilitaryTrainingSimulator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:m="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF"
+        xmlns:local="clr-namespace:MapViewer.View;assembly=MapViewer"
+        Title="Military Training Simulation" Height="600" Width="800">
+
+    <!-- DataContext not set in XAML -->
+
+    <Grid>
+        <local:MapViewer />
+    </Grid>
+</Window>
+
